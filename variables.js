@@ -5,4 +5,4 @@ var edad;
 nombre = prompt("Ingresa tu nombre");
 edad = prompt("Ingresa tu edad");
 //el documento escribe el nombre
-document.write("tu nombre es: "+nombre+" y tienes "+ edad);
+document.write("<br/>"+"tu nombre es: "+nombre+" y tienes "+ edad);

@@ -3,15 +3,15 @@
 //numerico float, ya detecta que valor le atas metiendo
 var edad = 24;
 var kilos= 5.50;
-document.write(edad+" "+ kilos);
+document.write("<br/>"+edad+" "+ kilos);
 
 //String
 var nombre = "miguel";
 var apellido = "villagomez \"comillas\"";
-document.write(nombre+" "+apellido);
+document.write("<br/>"+nombre+" "+apellido);
 //Array-arreglo
  var nombres=["miguel", "pepe", " juan"];
- document.write(nombre[0]+" "+nombres[1]+" "+nombres[2]);
+ document.write("<br/>"+nombre[0]+" "+nombres[1]+" "+nombres[2]);
  //objetos
  var objeto = {
    color: "Black",
@@ -21,10 +21,10 @@ document.write(nombre+" "+apellido);
  var booleano=false;
  //valor undefinido
  var indefinida;
- document.write(indefinida);
+ document.write("<br/>"+indefinida);
  //valor Null, se utiliza cuando el valor que tenemos queremos a estrableserlo a nulo ,
  var numero2= 10;
  var numero2= null;
  //NaN, cuando tenemos un error nopodemos multiplicar un numero con un string
  var texto="hola como estas";
- document.write(texto*2);
+ document.write("<br/>"+texto*2);
